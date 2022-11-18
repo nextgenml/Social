@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.instagramLogo {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+.sidebar:hover {
+  width: 16rem;
+}
+@media only screen and (min-width: 768px) {
+  .header-right {
+    width: calc(100% - 16rem);
+  }
+}
