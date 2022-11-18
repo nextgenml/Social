@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-start pl-5 mt-5 gap-x-20 ">
+      <div className="flex flex-wrap justify-center pl-5 mt-5 md:justify-start gap-x-20 ">
         <SocialCard Icon={FaFacebook} IconClass="bg-[#23638d]" />
         <SocialCard Icon={FaLinkedin} IconClass="bg-[#2e6bdd]" />
         <SocialCard Icon={FaTwitter} IconClass="bg-[#4eb3df]" />
